@@ -1,0 +1,46 @@
+{
+  "name": "Selector Aleatorio de Colores para Juegos",
+  "description": "Generá colores aleatorios para tus juegos móviles desde sets predefinidos o personalizados. Herramienta gratuita para desarrolladores y creativos en Argentina.",
+  "theme": "tool",
+  "design_theme": "neon-grid",
+  "structure_preset": "metric-grid",
+  "render_direction": "signal-bento",
+  "page_blueprint": "dossier-rail",
+  "language": "es",
+  "country": "AR",
+  "url": null,
+  "expected_url": "https://random-color-picker-games.onrender.com",
+  "created": "2026-05-23T00:43:46.097543+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "provider_space_id": "provider-space",
+  "provider_space_name": "Provider space",
+  "status": "generated",
+  "run_id": "run-1779495708244",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: metrics",
+    "Design theme: Neon Grid",
+    "Render direction: Signal Bento",
+    "Page blueprint: Dossier Rail",
+    "Runtime mode: palette_generator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
