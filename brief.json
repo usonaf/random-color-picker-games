@@ -1,0 +1,311 @@
+{
+  "run_id": "run-1779495708244",
+  "job_index": 10,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 10,
+    "archetype": "tool",
+    "market": "Argentina - herramientas para juegos móviles, seguridad de cuenta y juego responsable",
+    "language": "es",
+    "country": "AR",
+    "brief": "Random color picker para juegos.",
+    "notes": "Crear sitios en español rioplatense para Argentina. Deben ser herramientas web reales, con formulario funcional, resultado visible, copy claro y disclaimer de juego responsable. No prometer ganancias, no incentivar apuestas, no usar claims de casino. Localizar pagos/KYC a CBU, CVU, alias, DNI, CUIT/CUIL, billetera virtual y transferencia bancaria.\nElige colores aleatorios desde sets rojo, verde, violeta o personalizados.\nCampos: set de colores y cantidad de picks. Resultado: color elegido, lista de picks e historial. Incluir nota de uso recreativo.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "tool",
+      "generator"
+    ],
+    "site_idea_title": "Selector aleatorio de colores para juegos",
+    "site_idea_summary": "Elige colores aleatorios desde sets rojo, verde, violeta o personalizados.",
+    "forced_slug": "random-color-picker-games"
+  },
+  "site_spec": {
+    "slug": "random-color-picker-games",
+    "theme": {
+      "name": "Neon Grid",
+      "slug": "neon-grid",
+      "eyebrow": "Y2K Utility",
+      "family": "neon-grid",
+      "moods": [
+        "technical",
+        "cyber",
+        "fast",
+        "developer"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "accessibility",
+        "developer tools",
+        "contrast checker",
+        "validator",
+        "qa"
+      ],
+      "keywords": [
+        "wcag",
+        "contrast",
+        "debug",
+        "developer",
+        "tester"
+      ],
+      "token_index": [
+        "accessibility",
+        "calculator",
+        "checker",
+        "contrast",
+        "cyber",
+        "debug",
+        "developer",
+        "fast",
+        "grid",
+        "neon",
+        "technical",
+        "tester",
+        "tool",
+        "tools",
+        "utility",
+        "validator",
+        "wcag",
+        "y2k"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap",
+      "display_font": "\"Orbitron\", sans-serif",
+      "body_font": "\"Rajdhani\", sans-serif",
+      "layout": "asymmetric",
+      "card_style": "neon",
+      "button_style": "glow",
+      "decor_style": "scanlines",
+      "hero_template": "0.88fr 1.12fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "radial-gradient(circle at top, #0c1225 0%, #05070d 65%, #020308 100%)",
+        "surface": "rgba(7, 10, 18, 0.82)",
+        "surface_border": "rgba(0,255,159,0.28)",
+        "text": "#e9fffb",
+        "muted": "#8de9ff",
+        "accent": "#00ff9f",
+        "accent_alt": "#00d4ff",
+        "hero_glow": "rgba(0,255,159,0.22)",
+        "button_text": "#04150f",
+        "panel_alt": "rgba(255,255,255,0.03)",
+        "shadow": "0 0 48px rgba(0, 255, 159, 0.18)",
+        "input_fill": "rgba(255,255,255,0.03)"
+      }
+    },
+    "structure": {
+      "name": "Metric Grid",
+      "slug": "metric-grid",
+      "hero_variant": "command",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "seo",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "data-grid",
+      "moods": [
+        "technical",
+        "precise",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "developer tools",
+        "qa",
+        "finance",
+        "analytics"
+      ],
+      "keywords": [
+        "metrics",
+        "grid",
+        "dashboard",
+        "precision"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "command",
+        "dashboard",
+        "data",
+        "developer",
+        "faq",
+        "features",
+        "finance",
+        "grid",
+        "metric",
+        "metrics",
+        "precise",
+        "precision",
+        "proof",
+        "seo",
+        "systemic",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Selector Aleatorio de Colores para Juegos",
+    "tagline": "Configurá tus Picks",
+    "description": "Generá colores aleatorios para tus juegos móviles desde sets predefinidos o personalizados. Herramienta gratuita para desarrolladores y creativos en Argentina.",
+    "feature_prefix": "Módulo",
+    "action": "Generate palette",
+    "cta_primary": "Generar Colores",
+    "cta_secondary": "Leer la FAQ",
+    "inputs": [
+      {
+        "id": "base_color",
+        "label": "Base color",
+        "type": "text",
+        "placeholder": "#ff5db1",
+        "weight": 1.0
+      },
+      {
+        "id": "palette_style",
+        "label": "Palette direction",
+        "type": "select",
+        "options": [
+          {
+            "id": "chrome-pop",
+            "label": "Chrome Pop",
+            "multiplier": 1
+          },
+          {
+            "id": "digital-candy",
+            "label": "Digital Candy",
+            "multiplier": 1
+          },
+          {
+            "id": "acid-pastel",
+            "label": "Acid Pastel",
+            "multiplier": 1
+          },
+          {
+            "id": "night-neon",
+            "label": "Night Neon",
+            "multiplier": 1
+          }
+        ],
+        "weight": 1.0
+      },
+      {
+        "id": "vibrancy",
+        "label": "Visual intensity",
+        "type": "number",
+        "placeholder": "8",
+        "weight": 0.5
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadencia"
+      },
+      {
+        "value": "3",
+        "label": "Entradas"
+      },
+      {
+        "value": "Generated palette",
+        "label": "Salida"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Generar Colores",
+      "Generated palette",
+      "Utilidad inmediata",
+      "Estructura SEO clara"
+    ],
+    "result_label": "Generated palette",
+    "result_unit": "",
+    "runtime_mode": "palette_generator",
+    "page_variant": "console",
+    "faq_topic": "Selector aleatorio de colores para juegos",
+    "faq_entries": [
+      {
+        "question": "¿Por qué usar esta herramienta para Selector aleatorio de colores para juegos?",
+        "answer": "Ayuda a definir la necesidad rápidamente y a guiar hacia una siguiente acción clara en Argentina - herramientas para juegos móviles, seguridad de cuenta y juego responsable."
+      },
+      {
+        "question": "¿El resultado es inmediato?",
+        "answer": "Sí. La interfaz está pensada para devolver una respuesta rápida y clara desde la primera interacción."
+      },
+      {
+        "question": "¿La página está preparada para SEO?",
+        "answer": "Sí. La estructura combina utilidad, claridad editorial y señales de confianza sin recargar la experiencia."
+      }
+    ],
+    "seo_paragraphs": [
+      "Esta página está diseñada para captar una intención fuerte sobre Selector aleatorio de colores para juegos y convertirla en una acción medible en Argentina - herramientas para juegos móviles, seguridad de cuenta y juego responsable.",
+      "La estructura hero-first mejora la claridad, reduce fricción y funciona bien tanto en móvil como en escritorio.",
+      "La base se mantiene ligera para facilitar pruebas, QA continua y variaciones SEO repetibles."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Selector Aleatorio de Colores para Juegos | Configurá tus Picks</title>\n    <meta name=\"description\" content=\"Generá colores aleatorios para tus juegos móviles desde sets predefinidos o personalizados. Herramienta gratuita para desarrolladores y creativos en Argentina.\">\n    <style>\n        :root {\n            --neon-purple: #aa7e51; /* Base color derived from seed */\n            --dark-grid: #1a1a2e;\n            --mid-grid: #2e2e4e;\n            --light-grid: #3e3e6e;\n            --text-light: #f0f0f0;\n            --text-dark: #cccccc;\n            --accent-green: #39ff14;\n            --accent-red: #ff3131;\n            --bg-gradient-start: #0f0f20;\n            --bg-gradient-end: #1a1a3a;\n            --border-neon: 1px solid var(--neon-purple);\n            --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);\n            --font-serif: \"Playfair Display\", serif;\n            --font-sans: \"Inter\", sans-serif;\n        }\n\n        body {\n            font-family: var(--font-sans);\n            background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));\n            color: var(--text-light);\n            margin: 0;\n            padding: 20px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            min-height: 100vh;\n            overflow-x: hidden;\n            box-sizing: border-box;\n        }\n\n        h1, h2, h3 {\n            font-family: var(--font-serif);\n            color: var(--neon-purple);\n            text-shadow: 0 0 8px rgba(255, 0, 255, 0.5);\n        }\n\n        header {\n            text-align: center;\n            margin-bottom: 40px;\n            padding: 20px;\n            background: var(--dark-grid);\n            border-bottom: var(--border-neon);\n            width: 100%;\n            max-width: 900px;\n            box-sizing: border-box;\n            box-shadow: var(--card-shadow);\n            border-radius: 8px;\n        }\n\n        .container {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 20px;\n            width: 100%;\n            max-width: 1200px;\n            margin-bottom: 40px;\n        }\n\n        .card {\n            background: var(--mid-grid);\n            border: var(--border-neon);\n            border-radius: 8px;\n            padding: 25px;\n            box-shadow: var(--card-shadow);\n            transition: transform 0.2s ease-in-out;\n            display: flex;\n            flex-direction: column;\n            gap: 15px;\n        }\n\n        .card:hover {\n            transform: translateY(-5px);\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            color: var(--text-dark);\n            font-weight: bold;\n        }\n\n        select, input[type=\"number\"], input[type=\"color\"] {\n            width: calc(100% - 20px);\n            padding: 10px;\n            margin-bottom: 15px;\n            border-radius: 5px;\n            border: 1px solid var(--light-grid);\n            background-color: var(--dark-grid);\n            color: var(--text-light);\n            font-size: 1em;\n            appearance: none;\n            -webkit-appearance: none;\n            -moz-appearance: none;\n            box-sizing: border-box;\n        }\n\n        select:focus, input[type=\"number\"]:focus, input[type=\"color\"]:focus {\n            outline: none;\n            border-color: var(--neon-purple);\n            box-shadow: 0 0 5px var(--neon-purple);\n        }\n\n        button {\n            background-color: var(--neon-purple);\n            color: var(--dark-grid);\n            border: none;\n            padding: 12px 25px;\n            border-radius: 5px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: bold;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n        }\n\n        button:hover {\n            background-color: #f0c26b;\n            transform: translateY(-2px);\n        }\n\n        #customColorPickerWrapper {\n            display: none;\n            margin-top: 10px;\n            align-items: center;\n            gap: 10px;\n        }\n\n        #customColorPickerWrapper input[type=\"color\"] {\n            width: 50px;\n            height: 40px;\n            padding: 0;\n            border: none;\n            background: none;\n            cursor: pointer;\n        }\n\n        #customColorPickerWrapper input[type=\"color\"]::-webkit-color-swatch-wrapper {\n            padding: 0;\n        }\n\n        #customColorPickerWrapper input[type=\"color\"]::-webkit-color-swatch {\n            border: var(--border-neon);\n            border-radius: 5px;\n        }\n\n        #tool-result {\n            margin-top: 30px;\n            padding: 25px;\n            background: var(--mid-grid);\n            border: var(--border-neon);\n            border-radius: 8px;\n            box-shadow: var(--card-shadow);\n            width: 100%;\n            max-width: 900px;\n            box-sizing: border-box;\n        }\n\n        #current-pick {\n            font-size: 1.8em;\n            font-weight: bold;\n            text-align: center;\n            margin-bottom: 20px;\n            color: var(--accent-green);\n            text-shadow: 0 0 10px var(--accent-green);\n        }\n\n        #pick-history ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n            max-height: 200px;\n            overflow-y: auto;\n            border: 1px solid var(--light-grid);\n            border-radius: 5px;\n            background-color: var(--dark-grid);\n        }\n\n        #pick-history li {\n            padding: 10px;\n            border-bottom: 1px solid var(--light-grid);\n            display: flex;\n            align-items: center;\n            gap: 10px;\n        }\n\n        #pick-history li:last-child {\n            border-bottom: none;\n        }\n\n        .color-box {\n            width: 25px;\n            height: 25px;\n            border: 1px solid var(--text-dark);\n            border-radius: 3px;\n        }\n\n        .disclaimer {\n            margin-top: 40px;\n            padding: 20px;\n            background: var(--dark-grid);\n            border: var(--border-neon);\n            border-radius: 8px;\n            font-size: 0.9em;\n            color: var(--text-dark);\n            text-align: center;\n            width: 100%;\n            max-width: 900px;\n            box-sizing: border-box;\n            box-shadow: var(--card-shadow);\n        }\n\n        .seo-section {\n            margin-top: 60px;\n            padding: 25px;\n            background: var(--mid-grid);\n            border: var(--border-neon);\n            border-radius: 8px;\n            box-shadow: var(--card-shadow);\n            width: 100%;\n            max-width: 900px;\n            box-sizing: border-box;\n            color: var(--text-dark);\n        }\n\n        .seo-section h2 {\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        .seo-section p {\n            line-height: 1.6;\n            margin-bottom: 15px;\n        }\n\n        .seo-section ul {\n            list-style: disc;\n            margin-left: 20px;\n            margin-bottom: 15px;\n        }\n\n        .seo-section li {\n            margin-bottom: 5px;\n        }\n\n        @media (max-width: 768px) {\n            .container {\n                grid-template-columns: 1fr;\n            }\n        }\n    </style>\n    <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap\" rel=\"stylesheet\">\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://random-color-picker-games.onrender.com\">\n    <meta property=\"og:title\" content=\"Selector Aleatorio de Colores para Juegos\">\n    <meta property=\"og:description\" content=\"Generá colores aleatorios para tus juegos móviles desde sets predefinidos o personalizados. Herramienta gratuita para desarrolladores y creativos en Argentina.\">\n    <meta property=\"og:url\" content=\"https://random-color-picker-games.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Selector Aleatorio de Colores para Juegos\", \"description\": \"Generá colores aleatorios para tus juegos móviles desde sets predefinidos o personalizados. Herramienta gratuita para desarrolladores y creativos en Argentina.\", \"url\": \"https://random-color-picker-games.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"random-color-picker-games\" data-runtime-mode=\"palette_generator\">\n    <header>\n        <h1>Selector Aleatorio de Colores para Juegos</h1>\n        <p>Una herramienta diseñada para creativos y desarrolladores en Argentina. Generá paletas vibrantes o sutiles al azar para tus proyectos de juegos móviles.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"card\">\n            <h2>Configurá tus Picks</h2>\n            <form id=\"tool-form\">\n                <label for=\"colorSet\">Set de Colores:</label>\n                <select id=\"colorSet\" name=\"colorSet\">\n                    <option value=\"rojo\">Rojos Intenso</option>\n                    <option value=\"verde\">Verdes Vibrantes</option>\n                    <option value=\"violeta\">Violetas Místicos</option>\n                    <option value=\"personalizado\">Personalizado</option>\n                </select>\n\n                <div id=\"customColorPickerWrapper\">\n                    <label for=\"customColor\">Color Base Personalizado:</label>\n                    <input type=\"color\" id=\"customColor\" name=\"customColor\" value=\"#aa7e51\">\n                </div>\n\n                <label for=\"numPicks\">Cantidad de Colores a Elegir:</label>\n                <input type=\"number\" id=\"numPicks\" name=\"numPicks\" min=\"1\" max=\"10\" value=\"1\">\n\n                <button type=\"submit\" id=\"tool-submit\">Generar Colores</button>\n            </form>\n        </div>\n\n        <div class=\"card\">\n            <h2>Resultado Actual</h2>\n            <div id=\"tool-result\">\n                <p id=\"result-detail\" id=\"current-pick\">Presioná \"Generar Colores\" para empezar.</p>\n                <h3>Historial de Picks:</h3>\n                <div id=\"pick-history\">\n                    <ul>\n                        <!-- Picks will be added here -->\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"disclaimer\">\n        <h3>Nota sobre el Uso Recreativo y Responsable</h3>\n        <p>Esta herramienta está pensada exclusivamente para fines recreativos, creativos y de desarrollo de juegos. No promueve ni incentiva ningún tipo de juego de azar, apuestas o actividades con ánimo de lucro. El diseño de juegos debe ser una actividad divertida y segura. Siempre recordá la importancia del juego responsable y la seguridad de tu cuenta al interactuar con cualquier plataforma online. Cuidate y disfrutá del proceso creativo.</p>\n        <p>Para transacciones o pagos seguros en Argentina, siempre verificá los datos del destinatario y usá métodos confiables como CBU, CVU, Alias CBU/CVU, DNI, CUIT/CUIL, o billeteras virtuales y transferencias bancarias protegidas.</p>\n    </div>\n\n    <div class=\"seo-section\">\n        <h2>Herramientas para Desarrolladores de Juegos Móviles en Argentina</h2>\n        <p>¿Estás buscando potenciar tus creaciones de juegos móviles en Argentina? En el vibrante ecosistema de desarrollo de videojuegos, contar con las herramientas adecuadas es fundamental. Nuestro Selector Aleatorio de Colores para Juegos es una utilidad gratuita y en línea diseñada para ayudarte a elegir la paleta perfecta, ya sea para un nuevo personaje, un escenario envolvente o la interfaz de usuario de tu próximo gran éxito.</p>\n        <p>Esta herramienta te permite explorar combinaciones de colores de forma rápida y eficiente, ofreciendo sets predefinidos (rojos intensos, verdes vibrantes, violetas místicos) o la posibilidad de personalizar tu propia base de color. Es ideal para:</p>\n        <ul>\n            <li><strong>Diseñadores de UI/UX:</strong> Encontrá inspiración para la estética visual de tus menús, botones y elementos interactivos.</li>\n            <li><strong>Artistas de Pixel Art:</strong> Generá paletas únicas que resalten el estilo visual de tus gráficos.</li>\n            <li><strong>Desarrolladores Indie:</strong> Optimizá tu flujo de trabajo al experimentar con diferentes esquemas de color sin complicaciones.</li>\n            <li><strong>Estudiantes y Aficionados:</strong> Aprendé sobre la teoría del color de una manera práctica y divertida para tus proyectos personales.</li>\n        </ul>\n        <p>Además de la creatividad, nos preocupamos por la seguridad y el juego responsable. Recordamos a todos los usuarios la importancia de proteger sus cuentas y utilizar nuestros recursos de manera ética y segura. Siempre asegurate de que tus transacciones y datos personales estén resguardados, ya sea que operes con CBU, CVU, alias, DNI, CUIT/CUIL, o a través de billeteras virtuales y transferencias bancarias en Argentina.</p>\n        <p>Explorá más recursos y herramientas pensadas para la comunidad de desarrollo de juegos en Argentina y llevá tus ideas al siguiente nivel con soluciones prácticas y accesibles.</p>\n    </div>\n\n    <script>\n        document.addEventListener('DOMContentLoaded', () => {\n            const colorSetSelect = document.getElementById('colorSet');\n            const customColorPickerWrapper = document.getElementById('customColorPickerWrapper');\n            const customColorInput = document.getElementById('customColor');\n            const numPicksInput = document.getElementById('numPicks');\n            const toolForm = document.getElementById('tool-form');\n            const toolResult = document.getElementById('tool-result');\n            const currentPickDisplay = document.getElementById('current-pick');\n            const pickHistoryList = document.querySelector('#pick-history ul');\n\n            colorSetSelect.addEventListener('change', () => {\n                if (colorSetSelect.value === 'personalizado') {\n                    customColorPickerWrapper.style.display = 'flex';\n                } else {\n                    customColorPickerWrapper.style.display = 'none';\n                }\n            });\n\n            toolForm.addEventListener('submit', (e) => {\n                e.preventDefault();\n\n                const selectedSet = colorSetSelect.value;\n                const numberOfPicks = parseInt(numPicksInput.value, 10);\n                const baseCustomColor = customColorInput.value;\n\n                if (isNaN(numberOfPicks) || numberOfPicks < 1 || numberOfPicks > 10) {\n                    alert('Por favor, ingresá un número entre 1 y 10 para la cantidad de picks.');\n                    return;\n                }\n\n                pickHistoryList.innerHTML = '';\n                let latestPick = '';\n\n                for (let i = 0; i < numberOfPicks; i++) {\n                    const color = generateRandomColor(selectedSet, baseCustomColor);\n                    addPickToHistory(color);\n                    if (i === 0) {\n                        latestPick = color;\n                    }\n                }\n                currentPickDisplay.textContent = `Último color elegido: ${latestPick}`;\n                currentPickDisplay.style.color = latestPick;\n            });\n\n            function hexToRgb(hex) {\n                const r = parseInt(hex.slice(1, 3), 16);\n                const g = parseInt(hex.slice(3, 5), 16);\n                const b = parseInt(hex.slice(5, 7), 16);\n                return [r, g, b];\n            }\n\n            function rgbToHex(r, g, b) {\n                return \"#\" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);\n            }\n\n            function adjustColor(hex, factor = 0) {\n                let [r, g, b] = hexToRgb(hex);\n\n                r = Math.max(0, Math.min(255, r + factor));\n                g = Math.max(0, Math.min(255, g + factor));\n                b = Math.max(0, Math.min(255, b + factor));\n\n                return rgbToHex(r, g, b);\n            }\n\n            function generateRandomColor(set, customBase) {\n                let baseColor;\n                switch (set) {\n                    case 'rojo':\n                        baseColor = '#FF0000'; // Pure Red\n                        break;\n                    case 'verde':\n                        baseColor = '#00FF00'; // Pure Green\n                        break;\n                    case 'violeta':\n                        baseColor = '#8A2BE2'; // Blue Violet\n                        break;\n                    case 'personalizado':\n                        baseColor = customBase;\n                        break;\n                    default:\n                        baseColor = '#FFFFFF';\n                }\n\n                // Apply a random adjustment to the base color to create variations\n                const adjustment = Math.floor(Math.random() * 100) - 50; // -50 to +49\n                return adjustColor(baseColor, adjustment);\n            }\n\n            function addPickToHistory(color) {\n                const listItem = document.createElement('li');\n                const colorBox = document.createElement('div');\n                colorBox.className = 'color-box';\n                colorBox.style.backgroundColor = color;\n                listItem.appendChild(colorBox);\n                listItem.appendChild(document.createTextNode(color));\n                pickHistoryList.prepend(listItem); // Add to the beginning\n            }\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"Result area was not found.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Native form submission updated the result area.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"Result area did not render usable output.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Primary tool form was not found.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
